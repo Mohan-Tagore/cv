@@ -3,72 +3,62 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Mohan's Personal Website</title>
+  <title>Mohan Tagore</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Merriweather:wght@300&family=Roboto:wght@300&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/mohan.jpg" alt="Mohan's Profile Picture"></td>
-      <td>
-        <h1>Mohan Tagore</h1>
-        <p><em>Founder of <strong><a href="https://www.google.com/">Nothing</a></strong></em></p>
-        <p>I am code nut. Gotta work hard</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li><a href="https://www.udemy.com/">Web Devleopment</a></li>
-    <li><a href="https://www.udemy.com/">Java Programming</a></li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Duration</th>
-        <th>Role</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2014-2019</td>
-        <td>SE at ACC</td>
-      </tr>
-      <tr>
-        <td>2019-2020</td>
-        <td>SSE at Digit</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>My Skills</h3>
-  <table cellspacing="10">
-    <tbody>
-      <tr>
-        <td>Java</td>
-        <td>★★★</td>
-      </tr>
-      <tr>
-        <td>C Programming</td>
-        <td>★★</td>
-      </tr>
-      <tr>
-        <td>Spring Framework</td>
-        <td>★★★</td>
-      </tr>
-      <tr>
-        <td>Maths</td>
-        <td>★★★★</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contacts.html">My Contact</a>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
+    <h1>I am Mohan Tagore</h1>
+    <h2 class="naive-h2"> a <span class="naive">naive</span> programmer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
+    <img src="images/mountain.png" alt="mountain-image">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/mohan.jpg" alt="mohan's profile pic">
+      <h2>Hello!!!</h2>
+      <p>I am hereby stepping into full stack web development.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="web-skill-img" src="images/skills.jpg" alt="web-dev pic">
+        <h3>Web Development</h3>
+        <p>
+          I am a newbie in developing web applications using technoligies like Java, HTML, CSS etc.
+          However, i am a backend developer featuring spring and hibernate framework in all Rest API services.
+          Upskilling in progress, soon hoping to gain knowledge in couple of other trending technoligies.
+        </p>
+      </div>
+      <div class="skill-row">
+        <img class="carrom-skill-img" src="images/carrom.jpg" alt="carrom pic">
+        <h3>Carrom</h3>
+        <p>
+          Carrom is a fascinating indoor game that garnered my attention.
+          A laze around game asking for focus and confidence is carrom and i am intermediate level player of the game.
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you are a big fan of Cricket 😁</h3>
+      <p>Do you love Sachin? Please leave a note about your thoughts on him.</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+  </div>
 
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2020 Mohan Tagore @ Nothing</p>
+  </div>
 
 </body>
 
